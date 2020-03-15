@@ -1,0 +1,12 @@
+.title {
+    text-align: center;
+}
+
+.new-form, .loading {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.loading {
+    text-align: center;
+}

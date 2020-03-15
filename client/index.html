@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <H1 class= 'title'>Twitter for 😻</H1>
+    </header>
+    <main>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id='name' class='u-full-width new-form input' name='name'>
+            <label for="content">Mew</label>
+            <textarea class='u-full-width new-form text' type='text' name="content" id="content" ></textarea>
+            <button class='button-primary'>Send your Post</button>
+        </form>
+        <div class='loading'>
+            <img src="./loading.gif" alt="">
+        </div>
+        <div class='mews'>
+        </div>
+    </main>
+    <script src="./client.js"></script>
+</body>
+
+</html>
